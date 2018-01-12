@@ -1,5 +1,10 @@
-# Javascript client for Domoio
+# Node client for Domoio
 This library let you receive notifications from Domoio, and change port states easily.
+## Install
+
+    npm install domoio --save
+
+## Usage
 
     var Domoio = require('domoio');
 
