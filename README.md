@@ -1,4 +1,4 @@
-# Javascrit client for Domoio
+# Javascript client for Domoio
 This library let you receive notifications from Domoio, and change port states easily.
 
     var Domoio = require('domoio');
@@ -7,7 +7,7 @@ This library let you receive notifications from Domoio, and change port states e
     const password = "ultrasecret";
     const project_id = "ea739c8c-f82b-4e13-88ec-83ead4dd6014";
 
-    // Register a port change listener.
+    // Register a port change listener
     Domoio.on('port_changed', (body) => {
       let {device_id, port_id, value} = body;
 
